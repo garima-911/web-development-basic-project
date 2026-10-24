@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html, body{
+    width: 100vw;
+    height: 100vh;
+}
+body{
+      background-image: url(background-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+width:400px;
+min-height:500px;
+max-width: 400px;
+ background: rgba(10, 20, 40, 0.85);
+    border: 1px solid rgba(0, 170, 255, 0.4);
+    box-shadow:
+        0 0 10px white,
+        0 0 20px #00aaff,
+        0 0 35px #0088ff,
+        0 0 70px rgba(0, 136, 255, 0.4);
+        border-radius: 10px;
+transition: 0.4s;
+}
+
+.main:hover{
+      box-shadow:
+        0 0 15px #00aaff,
+        0 0 35px #7766f6,
+        0 0 60px rgba(108, 92, 231, 0.5);
+        cursor:pointer;
+}
+.logo{
+    width:100%;
+    height:90px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:20px ;
+}
+
+.logo-user{
+    width: 60px;
+    height: 60px;
+    border: 2px solid #00aaff;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #00aaff;
+    font-size: 28px;
+    font-weight: bold;
+
+    box-shadow:
+        0 0 8px #00aaff,
+        0 0 20px #00aaff;
+
+}
+
+.text{
+    width:100%;
+    height:80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    text-shadow: 
+    1px 1px 0px grey,
+    2px 2px 0px grey;
+   
+}
+
+.login-btn{
+    width:100%;
+    height:50px;
+    margin-top:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.btn{
+    height:50px;
+    width:280px;
+    border-radius: 10px;
+    border:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left:20px;
+    overflow: hidden;
+    gap: 5px;
+     box-shadow:
+        0 0 1px white,
+        0 0 2px #00aaff,
+        0 0 5px #0088ff,
+        0 0 7px rgba(0, 136, 255, 0.4);
+
+}
+.btn i{
+   font-size: 30px;
+    font-weight: lighter;
+color:white;
+border:none;
+   
+}
+
+.btn input{
+outline:none;
+height:100%;
+width: 100%;
+background-color: transparent;
+border: none;
+}
+
+.btn:hover{
+    background: #00aaff;
+    box-shadow:
+        0 0 10px #00aaff,
+        0 0 25px #00aaff,
+        0 0 45px rgba(0, 170, 255, 0.7);
+    transform: translateY(-2px);
+}
+
+.letter{
+    width:100%;
+    height:40px;
+    margin-top:20px;
+    position:relative;
+    color: grey;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+ .letter input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    outline: none;
+    margin-right: 10px;
+ border: 1px solid white;
+ background-color: transparent;
+ cursor: pointer;
+}
+
+.letter input[type="checkbox"]:hover{
+    box-shadow: 0 0 10px #00aaff;
+    transform: translateY(-2px);
+    border: 1px solid white;
+
+}
+
+.letter a{
+    text-decoration: none;
+    color:#176389;
+    cursor: pointer;
+    
+}
+.letter a:hover{
+color: #83d6ff;
+transform: translate(-2px);
+}
+
+#checkbox{
+    display: flex;
+}
+
+.login-box{
+    width:100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.login-box input{
+    width:20em;
+    height: 100%;
+    border-radius: 20px;
+    color:white;
+    background-color: transparent;
+     box-shadow:
+        0 0 12px #00aaff,
+        0 0 15px #0088ff,
+        0 0 17px rgba(0, 136, 255, 0.4);
+        cursor: pointer;
+}
+
+.login-box input:hover{
+    background: #00aaff;
+    box-shadow:
+        0 0 10px #00aaff,
+        0 0 25px #00aaff,
+        0 0 45px rgba(0, 170, 255, 0.7);
+    transform: translateY(-2px);
+}
+
+#box{
+    height: 40px;
+    color:grey;
+}
+
+#box a{
+    text-decoration: none;
+    color: #83d6ff;
+}
+
+#box a:hover{
+    color: #497084;
+transform: translate(2px);
+}
+
+
